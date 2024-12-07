@@ -1,4 +1,8 @@
 # Intro to Message Brokers
+When choosing a message brokering technology, organizational use case can simplify the decision-making process greatly--or even lead to a quick answer. However, other factors are relevant and should, if not must, be considered: scalability needs, throughput and latency performance requirements, potential compatibility and integrations with the organization's protocol stack, willingness to take on a medium-to-high learning curve technology, and long-term data storage and logging needs.
+  
+More details on five prominent brokering protocols are summarized below:
+  
 | Characteristic | Kafka | RabbitMQ | Pulsar | ActiveMQ | NATS |
 | ---- | ---- | ---- | ---- | ---- | ---- |
 | Intended Use | Large data pipelines, streaming in real-time with high analytics and extensive event-related requirements. | Light message queueing and task scheduling, advanced routing. | Enterprise systems, multi-tenant operations, georeplication. | Messaging for enterprise-level, Java-based organizations. | Microservices and IoT integrations that must communicate seamlessly. |
