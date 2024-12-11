@@ -36,9 +36,9 @@ Finally, several of the popular use cases for Kafka include:
 
 * Message Queueing
   + Message delivery is reliable and long-term data storage can be enabled and configured per organizational need.
-  + Message orders can be guaranteed at the partition-level.
+  + Message orders can be guaranteed (assured) at the partition-level.
   + A reliable message replay feature can be set up.
-  + ‘Consumer’ and ‘producer’ mechanisms are decoupled, for high scalability.
+  + ‘Consumer’ and ‘producer’ mechanisms are decoupled (promoting autonomous/independent communications among components), for high scalability.
   + More than one consumer group, with various processing speeds, can be enabled.
 * Instant/Real-Time Analytics
   + This is a product of consumer/producer decoupling (and the resulting high scalability) and the allowance of various consumer groups.
@@ -47,28 +47,31 @@ Finally, several of the popular use cases for Kafka include:
   + Data can be aggregated and computations windowed instantly/in real-time.
 * Processing of Data Streams
   + Topic-based partitions allow for consistently large throughput levels.
-  + Instant processing can be accomplished through direct streaming (through tools such as Spark).
+  + Instant processing of rapidly, directly streamed data (through the use of Apache's Spark technology) is a Kafka specialization.
   + Social media platform data can be operated upon quickly (even for large web assets such as TikTok and Facebook).
   + Data streams can be used for machine learning models and training.
+  + High volume data streaming can be done seamlessly/without interruption.
 * System Migrations
   + Cutover can be handled on a configurable pace.
   + Data/systems can be rolled back with ease.
   + Migrations can be accomplished without downtime and data reconciliation for perfect data consistency.
   + Dual-write data patterns are supported.
 * Alerting/Monitoring
-  + Metrics can be instantly gathered from microservices/web assets.
+  + Metrics can be instantly gathered from microservices/web assets and compared against baseline (even when changes are incremental).
   + System health/posture can be monitored in real-time via dashboard tools.
   + Alerts can notify teams as soon as possible when outlier data/events occur.
   + Predictive monitoring and high-level event data stream processing are configurable.
 * Log Aggregation
-  + Kafka’s Connect tool provides real-time log processing.
-  + More than one downstream consumer can be enabled and logged at once.
+  + Kafka’s Connect tool provides real-time log processing, and allows for aggregated log analysis.
+  + More than one downstream consumer can be enabled and logged at once, even in high volume scenarios.
   + Insights are provided by analytics engines, and data can be fed to them in real-time.
-  + Logs can be stored in a centralized manner, even from distributed systems/environments.
+  + Logs can be stored in a centralized manner (even from distributed systems/environments) for secure, long-term data persistence.
 * Support for Change Data Capture (CDC)
   + Data integrity/consistency supported across systems.
-  + Changes to databases are accounted for instantly/in real-time.
+  + Changes to databases are accounted for instantly/in real-time, with incremental changes monitored and recorded.
   + Kafka Connect’s ‘sink connectors’ assist with caching, searching, and replicating. 
 * Data Replication
   + Replication across data centers is supported, as well as instantaneous data mirroring (crucial for backups and disaster recovery).
+  + Data distribution can be handled via clustering.
   + Data can be synchronized across databases and consistently delivered.
+  + Kafka reduces single point of failure occurrences and provides high redundancy (the preceding three points provide examples of how). 
