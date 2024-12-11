@@ -22,3 +22,11 @@ The Apache message broker 'Kafka' is a common solution, if not the gold standard
 * The ability to store messages for a long time, if an organization wills it (sets up the appropriate configurations).
 * The combination of high-level throughput (such as millions of messages per second), very low latency (less than 10 milliseconds), and assurances of horizontal, partition-based scalability.
 * Support for rapidly changing/modified schemas.
+<br />
+Furthermore, there are at least several factors a team should evaluate before deciding whether Kafka is the right message broker solution for their organization:
+
+* Their system resource requirements and whether Kafka corresponds to them. 
+* The role of schemas and schema management in their system and operations. 
+* If their team is ready to implement, maintain, and respond to Kafka’s alert and monitoring systems and strategic topic configuration and partition design controls (and utilize them to their potential).
+* If Kafka’s ‘consumer group’ (for message processing, based on topic) mechanism matches their system’s needs/operations.
+* If Kafka can be integrated into their organizational backup and disaster recovery plans, and if it makes sense to do so.
