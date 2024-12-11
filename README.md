@@ -13,3 +13,12 @@ More details on five prominent brokering protocols are summarized below:
 | `Message Retention` | Customizable log retention. | Message acknowledgment and permanent storage. | Tiered storage (by cost). | Permanent storage (caching optional). | Permanent storage is optional. |
 | `Ordering` | Partition-based maintenance. | Configuration required. | Partition-based maintenance. | Minimal, but customizable. | Not a native feature. |
 | `Learning Curve` | High. | Low (and widely supported). | Medium, dependent on configurations. | Low. | Very Low. |
+
+<br />
+The Apache message broker 'Kafka' is a common solution, if not the gold standard, for enterprise-level, instantaneous/real-time event streaming (especially in distributed environments with an abundance of data pipelines). Prior to investigating several of its use cases, it is worth considering its inherent advantages over some other event brokering platforms:
+
+* Order guaranteeing provides peace-of-mind and far fewer headaches than many other solutions do for heavily pipelined environments.
+* The pairing of fault tolerance mechanisms *with* data replication for high availability assurance.
+* The ability to store messages for a long time, if an organization wills it (sets up the appropriate configurations).
+* The combination of high-level throughput (such as millions of messages per second), very low latency (less than 10 milliseconds), and assurances of horizontal, partition-based scalability.
+* Support for rapidly changing/modified schemas.
