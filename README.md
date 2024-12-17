@@ -75,3 +75,5 @@ Finally, several of the popular use cases for Kafka include:
   + Data distribution can be handled via clustering.
   + Data can be synchronized across databases and consistently delivered.
   + Kafka reduces single point of failure occurrences and provides high redundancy (the preceding three points provide examples of how). 
+
+TODO: Add notes on IBM MQ.
