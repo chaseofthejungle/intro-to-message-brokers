@@ -4,7 +4,7 @@ When choosing a message brokering technology, organizational use case can simpli
 More details on five prominent brokering protocols are summarized below:
   
 | *Characteristic* | [Kafka](https://kafka.apache.org/) | [RabbitMQ](https://www.rabbitmq.com/) | [Pulsar](https://pulsar.apache.org/) | [ActiveMQ](https://activemq.apache.org/) | [NATS](https://nats.io/) |
-| ---- | ---- | ---- | ---- | ---- | ---- |
+| :----: | :----: | :----: | :----: | :----: | :----: |
 | **Intended Use** | Large data pipelines, streaming in real-time with high analytics and extensive event-related requirements. | Light message queueing and task scheduling, advanced routing. | Enterprise systems, multi-tenant operations, georeplication. | Messaging for enterprise-level, Java-based organizations. | Microservices and IoT integrations that must communicate seamlessly. |
 | **System Architecture** | Broker, partition, and replica based distribution. | Push-based messaging via a centralized broker. | Distributed, with tiered storage and native replication ability. | Supports many protocols with its centralized broker. | P2P connections. Broker not required. |
 | **Scalability** | Horizontally partitioned for high scalability. | Limited by design. | Horizontal scalability. | Somewhat scalable. | High scalability (for lightweight environments). |
