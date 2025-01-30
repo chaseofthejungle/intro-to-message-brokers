@@ -1,7 +1,14 @@
 # Intro to Message Brokers
 **Overview:** When choosing a message brokering technology, organizational use case can simplify the decision-making process greatly--or even lead to a quick answer. However, other factors are relevant and should, if not must, be considered: scalability needs, throughput and latency performance requirements, potential compatibility and integrations with the organization's protocol stack, willingness to take on a medium-to-high learning curve technology, and long-term data storage and logging needs.
+
+#### Table of Contents:
+
+1. Five Prominent Brokering Protocols (Details Summarized)
+2. Apache Kafka
   
-More details on five prominent brokering protocols are summarized below:
+<hr />
+
+## 1. Five Prominent Brokering Protocols (Details Summarized)   
   
 | | [Kafka](https://kafka.apache.org/) | [RabbitMQ](https://www.rabbitmq.com/) | [Pulsar](https://pulsar.apache.org/) | [ActiveMQ](https://activemq.apache.org/) | [NATS](https://nats.io/) |
 | :----: | :----: | :----: | :----: | :----: | :----: |
@@ -16,7 +23,7 @@ More details on five prominent brokering protocols are summarized below:
 
 <hr />
 
-## Apache Kafka
+## 2. Apache Kafka
   
 The Apache message broker 'Kafka' is a common solution, if not the gold standard, for enterprise-level, instantaneous/real-time event streaming (especially in distributed environments with an abundance of data pipelines). Prior to investigating several of its use cases, it is worth considering its inherent advantages over some other event brokering platforms:
 
