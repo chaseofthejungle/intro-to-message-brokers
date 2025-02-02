@@ -3,12 +3,12 @@
 
 #### Table of Contents:
 
-1. Five Prominent Brokering Protocols (Details Summarized)
-2. Apache Kafka
+1. [Five Prominent Brokering Protocols (Details Summarized)](#brokering-details)
+2. [Apache Kafka](#kafka)
   
 <hr />
 
-## 1. Five Prominent Brokering Protocols (Details Summarized)   
+## <a name="brokering-details">1. Five Prominent Brokering Protocols (Details Summarized)</a>
   
 | | [Kafka](https://kafka.apache.org/) | [RabbitMQ](https://www.rabbitmq.com/) | [Pulsar](https://pulsar.apache.org/) | [ActiveMQ](https://activemq.apache.org/) | [NATS](https://nats.io/) |
 | :----: | :----: | :----: | :----: | :----: | :----: |
@@ -23,7 +23,7 @@
 
 <hr />
 
-## 2. Apache Kafka
+## <a name="kafka">2. Apache Kafka</a>
   
 The Apache message broker 'Kafka' is a common solution, if not the gold standard, for enterprise-level, instantaneous/real-time event streaming (especially in distributed environments with an abundance of data pipelines). Prior to investigating several of its use cases, it is worth considering its inherent advantages over some other event brokering platforms:
 
