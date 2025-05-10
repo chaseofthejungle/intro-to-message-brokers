@@ -5,6 +5,7 @@
 
 1. [Five Prominent Brokering Protocols (Details Summarized)](#brokering-details)
 2. [Apache Kafka](#kafka)
+3. [Supplemental Resource](#supplemental)
   
 <hr />
 
@@ -85,4 +86,11 @@ Finally, several of the popular use cases for Kafka include:
   + Data can be synchronized across databases and consistently delivered.
   + Kafka reduces single point of failure occurrences and provides high redundancy (the preceding three points provide examples of how). 
 
+<hr />
+
+## <a name="supplemental">3. Supplemental Resource</a>
+
+* *[Official Apache Kafka Website](https://kafka.apache.org/)*
+<hr />
+  
 TODO: Add notes on IBM MQ.
