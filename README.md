@@ -5,7 +5,7 @@
 
 1. [Five Prominent Brokering Protocols (Details Summarized)](#brokering-details)
 2. [Apache Kafka](#kafka)
-3. [Supplemental Resource](#supplemental)
+3. [Supplemental Resources](#supplemental)
   
 <hr />
 
@@ -91,6 +91,7 @@ Finally, several of the popular use cases for Kafka include:
 ## <a name="supplemental">3. Supplemental Resource</a>
 
 * *[Official Apache Kafka Website](https://kafka.apache.org/)*
+* *[Official RabbitMQ Website](https://www.rabbitmq.com/)*
 <hr />
   
 TODO: Add notes on IBM MQ.
