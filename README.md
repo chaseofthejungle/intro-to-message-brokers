@@ -88,10 +88,13 @@ Finally, several of the popular use cases for Kafka include:
 
 <hr />
 
-## <a name="supplemental">3. Supplemental Resource</a>
+## <a name="supplemental">3. Supplemental Resources</a>
 
+* *[Official Apache ActiveMQ Website](https://activemq.apache.org/)*
 * *[Official Apache Kafka Website](https://kafka.apache.org/)*
+* *[Official Apache Pulsar Website](https://pulsar.apache.org/)*
 * *[Official RabbitMQ Website](https://www.rabbitmq.com/)*
+* *[NATS.io](https://nats.io/)*
 <hr />
   
 TODO: Add notes on IBM MQ.
